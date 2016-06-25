@@ -30,6 +30,16 @@ h6 {
     font-weight: 400;
 }
 
+.link {
+    margin-right: 10px !important;
+    border-color: transparent !important;
+    background-color: transparent !important;
+}
+
+.link:hover, .selected {
+  background-color: #1DB0ED !important;
+    color: #ffffff !important;
+}
 .intro-header, .contact {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -68,6 +78,7 @@ h6 {
 
 .auto-text {
     height: 10px;
+    visibility: hidden;
 }
 
 .cd-headline.type .cd-words-wrapper {
