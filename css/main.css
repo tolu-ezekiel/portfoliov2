@@ -32,13 +32,13 @@ h6 {
 
 .link {
     margin-right: 10px !important;
-    border-color: transparent !important;
     background-color: transparent !important;
 }
 
 .link:hover, .selected {
-  background-color: #1DB0ED !important;
-    color: #ffffff !important;
+    color: #000 !important;
+    border-bottom-style: solid;
+    border-bottom-color: #1DB0ED;
 }
 .intro-header, .contact {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
