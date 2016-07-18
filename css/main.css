@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
 
 body,
 html {
@@ -46,8 +41,7 @@ h6 {
     border-bottom-color: #1DB0ED;
 }
 .intro-header {
-    /*background: url(../img/two.jpg) no-repeat center center ;*/
-    background: url(../img/two.jpg) no-repeat center center fixed;
+    background: url(../img/home.jpg) no-repeat center center fixed;
 }
 .intro-header, .contact, .portfolio {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -56,23 +50,23 @@ h6 {
     color: #f8f8f8;
     background-size: cover;
     overflow:auto;
+    /*background-size: 100% 100%;*/
 }
 .portfolio {
-    /*background: url(../img/portfolio.png) no-repeat center center ;*/
-    background: url(../img/portfolio.png) no-repeat center center fixed;
+    background: url(../img/portfolio.jpg) no-repeat center center fixed;
 }
 .intro-message {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
 }
-#contact-message {
+.contact-message {
     position: relative;
     padding-top: 10%;
     padding-bottom:10%;
 }
 
-.intro-message > h1 {
+.intro-message > h1, .contact-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
@@ -84,7 +78,7 @@ h6 {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.intro-message > h3 {
+.intro-message > h3, .contact-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
@@ -145,11 +139,11 @@ h6 {
 }
 
 @media(max-width:767px) {
-    .intro-message {
+    .intro-message, .contact-message {
         padding-bottom: 15%;
     }
 
-    .intro-message > h1 {
+    .intro-message > h1, .contact-message > h1 {
         font-size: 3em;
     }
 
@@ -167,7 +161,17 @@ h6 {
         width: 100%;
     }
 }
-
+/*@media only screen (max-device-width : 1024px) {
+    .intro-header {
+        background: url(../img/home-mobile.jpg) no-repeat center center;
+    }
+    .portfolio {
+        background: url(../img/portfolio-mobile.jpg) no-repeat center center;
+    }.contact {
+        background: url(../img/contact-mobile.jpg) no-repeat center center;
+    }
+}
+*/
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
@@ -197,8 +201,7 @@ h6 {
 }
 
 .contact {
-    /*background: url(../img/banner-bg.jpg) no-repeat center center ;*/
-    background: url(../img/banner-bg.jpg) no-repeat center center fixed;
+    background: url(../img/contact.jpg) no-repeat center center fixed;
 }
 
 footer {
