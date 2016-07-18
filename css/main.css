@@ -46,6 +46,7 @@ h6 {
     border-bottom-color: #1DB0ED;
 }
 .intro-header {
+    /*background: url(../img/two.jpg) no-repeat center center ;*/
     background: url(../img/two.jpg) no-repeat center center fixed;
 }
 .intro-header, .contact, .portfolio {
@@ -57,6 +58,7 @@ h6 {
     overflow:auto;
 }
 .portfolio {
+    /*background: url(../img/portfolio.png) no-repeat center center ;*/
     background: url(../img/portfolio.png) no-repeat center center fixed;
 }
 .intro-message {
@@ -195,6 +197,7 @@ h6 {
 }
 
 .contact {
+    /*background: url(../img/banner-bg.jpg) no-repeat center center ;*/
     background: url(../img/banner-bg.jpg) no-repeat center center fixed;
 }
 
