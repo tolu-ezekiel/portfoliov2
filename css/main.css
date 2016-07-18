@@ -163,17 +163,6 @@ h6 {
         width: 100%;
     }
 }
-/*@media only screen (max-device-width : 1024px) {
-    .intro-header {
-        background: url(../img/home-mobile.jpg) no-repeat center center;
-    }
-    .portfolio {
-        background: url(../img/portfolio-mobile.jpg) no-repeat center center;
-    }.contact {
-        background: url(../img/contact-mobile.jpg) no-repeat center center;
-    }
-}
-*/
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
